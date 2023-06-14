@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9B9119E2-D447-42E4-9197-F8E62367F2AA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03E55191-AE00-4C27-B5FD-AD0C13D32654"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhinconTest/Scene/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "722DB649-4E05-4096-ADF4-513E219A02BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "722DB649-4E05-4096-ADF4-513E219A02BE - 9fe572afa28dc860"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "722DB649-4E05-4096-ADF4-513E219A02BE - 9fe572afa28dc860"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "185">
+               </Location>
+               <Location
+                  uuid = "722DB649-4E05-4096-ADF4-513E219A02BE - 9fe572afa28dc801"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "185">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EC100D5-A56B-47E5-9232-B07920E12BBE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6EC100D5-A56B-47E5-9232-B07920E12BBE - 9fe572afa28dc801"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "455">
+               </Location>
+               <Location
+                  uuid = "6EC100D5-A56B-47E5-9232-B07920E12BBE - 9fe572afa28dc801"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "6EC100D5-A56B-47E5-9232-B07920E12BBE - 9fe572afa28dc822"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42E325FA-28F9-4C82-BFA5-EA23ED103B07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhinconTest/Scene/PokemonDetail/PokemonDetailInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchPokemonDetail(name:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42E325FA-28F9-4C82-BFA5-EA23ED103B07 - b6737968b5c1209b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailInteractor.fetchPokemonDetail(name: Swift.String) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "42E325FA-28F9-4C82-BFA5-EA23ED103B07 - 191cbba7d8dc5029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PhinconTest.PokemonDetailInteractor.fetchPokemonDetail(name: Swift.String) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "42E325FA-28F9-4C82-BFA5-EA23ED103B07 - b6737968b5c1205d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailInteractor.fetchPokemonDetail(name: Swift.String) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "42E325FA-28F9-4C82-BFA5-EA23ED103B07 - 191cbba7d8dc504a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PhinconTest.PokemonDetailInteractor.fetchPokemonDetail(name: Swift.String) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "90">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1793D80-0DDC-4E2D-BE7B-819BAED90F34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhinconTest/Scene/PokemonDetail/PokemonDetailInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "parsePokemonData(json:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09DDD16C-9747-4AA5-A45E-8BCE708D6924"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "updatePokemonData(pokemon:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "09DDD16C-9747-4AA5-A45E-8BCE708D6924 - f99185f00425170e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.updatePokemonData(pokemon: PhinconTest.Pokemon) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "09DDD16C-9747-4AA5-A45E-8BCE708D6924 - f99185f004251729"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.updatePokemonData(pokemon: PhinconTest.Pokemon) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "234">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F67DD57-604D-4E9A-9CEA-C96B6E2817A6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "updatePokemonData(pokemon:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F67DD57-604D-4E9A-9CEA-C96B6E2817A6 - f99185f00425170e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.updatePokemonData(pokemon: PhinconTest.Pokemon) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "6F67DD57-604D-4E9A-9CEA-C96B6E2817A6 - f99185f004251729"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhinconTest.PokemonDetailViewController.updatePokemonData(pokemon: PhinconTest.Pokemon) -&gt; ()"
+                  moduleName = "PhinconTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophersonny/Desktop/PhinconTest/PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "234">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB5C2AC3-0585-4A21-A247-2409A7A13DBE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "updatePokemonData(pokemon:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1D9B250-D41A-49EF-B0C1-7265E1116008"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhinconTest/Scene/PokemonDetail/PokemonDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "updatePokemonData(pokemon:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B71CED6242F988B90B260EA /* Pods_PhinconTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA5E4EC936145EBDBFB6205 /* Pods_PhinconTest.framework */; };
+		EDC4FA7D2A38E131000E8835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FA7C2A38E131000E8835 /* AppDelegate.swift */; };
+		EDC4FA7F2A38E131000E8835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FA7E2A38E131000E8835 /* SceneDelegate.swift */; };
+		EDC4FA812A38E131000E8835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FA802A38E131000E8835 /* ViewController.swift */; };
+		EDC4FA842A38E131000E8835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC4FA822A38E131000E8835 /* Main.storyboard */; };
+		EDC4FA862A38E133000E8835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC4FA852A38E133000E8835 /* Assets.xcassets */; };
+		EDC4FA892A38E133000E8835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC4FA872A38E133000E8835 /* LaunchScreen.storyboard */; };
+		EDC4FA942A38E133000E8835 /* PhinconTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FA932A38E133000E8835 /* PhinconTestTests.swift */; };
+		EDC4FA9E2A38E133000E8835 /* PhinconTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FA9D2A38E133000E8835 /* PhinconTestUITests.swift */; };
+		EDC4FAA02A38E133000E8835 /* PhinconTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FA9F2A38E133000E8835 /* PhinconTestUITestsLaunchTests.swift */; };
+		EDC4FAB32A38E58E000E8835 /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FAAE2A38E58E000E8835 /* HomeContract.swift */; };
+		EDC4FAB42A38E58E000E8835 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FAAF2A38E58E000E8835 /* HomePresenter.swift */; };
+		EDC4FAB52A38E58E000E8835 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FAB02A38E58E000E8835 /* HomeRouter.swift */; };
+		EDC4FAB62A38E58E000E8835 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FAB12A38E58E000E8835 /* HomeViewController.swift */; };
+		EDC4FAB72A38E58E000E8835 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FAB22A38E58E000E8835 /* HomeInteractor.swift */; };
+		EDC4FABA2A38E5A7000E8835 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FAB92A38E5A7000E8835 /* Request.swift */; };
+		EDC4FABD2A38ECFE000E8835 /* SimplePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4FABC2A38ECFE000E8835 /* SimplePokemon.swift */; };
+		EDE8F2E32A399134000BEBB8 /* PokemonDetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8F2DE2A399134000BEBB8 /* PokemonDetailContract.swift */; };
+		EDE8F2E42A399134000BEBB8 /* PokemonDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8F2DF2A399134000BEBB8 /* PokemonDetailPresenter.swift */; };
+		EDE8F2E52A399134000BEBB8 /* PokemonDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8F2E02A399134000BEBB8 /* PokemonDetailRouter.swift */; };
+		EDE8F2E62A399134000BEBB8 /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8F2E12A399134000BEBB8 /* PokemonDetailViewController.swift */; };
+		EDE8F2E72A399134000BEBB8 /* PokemonDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8F2E22A399134000BEBB8 /* PokemonDetailInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC4FA902A38E133000E8835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC4FA712A38E131000E8835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC4FA782A38E131000E8835;
+			remoteInfo = PhinconTest;
+		};
+		EDC4FA9A2A38E133000E8835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC4FA712A38E131000E8835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC4FA782A38E131000E8835;
+			remoteInfo = PhinconTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CA5E4EC936145EBDBFB6205 /* Pods_PhinconTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhinconTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64A64544848A47848344D42 /* Pods-PhinconTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhinconTest.release.xcconfig"; path = "Target Support Files/Pods-PhinconTest/Pods-PhinconTest.release.xcconfig"; sourceTree = "<group>"; };
+		C9CE820DC18324711FA604B8 /* Pods-PhinconTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhinconTest.debug.xcconfig"; path = "Target Support Files/Pods-PhinconTest/Pods-PhinconTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC4FA792A38E131000E8835 /* PhinconTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhinconTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC4FA7C2A38E131000E8835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC4FA7E2A38E131000E8835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDC4FA802A38E131000E8835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC4FA832A38E131000E8835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC4FA852A38E133000E8835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC4FA882A38E133000E8835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC4FA8A2A38E133000E8835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC4FA8F2A38E133000E8835 /* PhinconTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhinconTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC4FA932A38E133000E8835 /* PhinconTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhinconTestTests.swift; sourceTree = "<group>"; };
+		EDC4FA992A38E133000E8835 /* PhinconTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhinconTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC4FA9D2A38E133000E8835 /* PhinconTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhinconTestUITests.swift; sourceTree = "<group>"; };
+		EDC4FA9F2A38E133000E8835 /* PhinconTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhinconTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDC4FAAE2A38E58E000E8835 /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		EDC4FAAF2A38E58E000E8835 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		EDC4FAB02A38E58E000E8835 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		EDC4FAB12A38E58E000E8835 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EDC4FAB22A38E58E000E8835 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		EDC4FAB92A38E5A7000E8835 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		EDC4FABC2A38ECFE000E8835 /* SimplePokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePokemon.swift; sourceTree = "<group>"; };
+		EDE8F2DE2A399134000BEBB8 /* PokemonDetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailContract.swift; sourceTree = "<group>"; };
+		EDE8F2DF2A399134000BEBB8 /* PokemonDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailPresenter.swift; sourceTree = "<group>"; };
+		EDE8F2E02A399134000BEBB8 /* PokemonDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailRouter.swift; sourceTree = "<group>"; };
+		EDE8F2E12A399134000BEBB8 /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
+		EDE8F2E22A399134000BEBB8 /* PokemonDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailInteractor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC4FA762A38E131000E8835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B71CED6242F988B90B260EA /* Pods_PhinconTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC4FA8C2A38E133000E8835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC4FA962A38E133000E8835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C5DC18B9691C7A5EB5D2BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE820DC18324711FA604B8 /* Pods-PhinconTest.debug.xcconfig */,
+				C64A64544848A47848344D42 /* Pods-PhinconTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		63EBD948A081C86D05599004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA5E4EC936145EBDBFB6205 /* Pods_PhinconTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC4FA702A38E131000E8835 = {
+			isa = PBXGroup;
+			children = (
+				EDC4FA7B2A38E131000E8835 /* PhinconTest */,
+				EDC4FA922A38E133000E8835 /* PhinconTestTests */,
+				EDC4FA9C2A38E133000E8835 /* PhinconTestUITests */,
+				EDC4FA7A2A38E131000E8835 /* Products */,
+				32C5DC18B9691C7A5EB5D2BB /* Pods */,
+				63EBD948A081C86D05599004 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC4FA7A2A38E131000E8835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4FA792A38E131000E8835 /* PhinconTest.app */,
+				EDC4FA8F2A38E133000E8835 /* PhinconTestTests.xctest */,
+				EDC4FA992A38E133000E8835 /* PhinconTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC4FA7B2A38E131000E8835 /* PhinconTest */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4FABB2A38ECEF000E8835 /* Model */,
+				EDC4FAB82A38E59E000E8835 /* Request */,
+				EDC4FAAC2A38E57B000E8835 /* Scene */,
+				EDC4FA7C2A38E131000E8835 /* AppDelegate.swift */,
+				EDC4FA7E2A38E131000E8835 /* SceneDelegate.swift */,
+				EDC4FA802A38E131000E8835 /* ViewController.swift */,
+				EDC4FA822A38E131000E8835 /* Main.storyboard */,
+				EDC4FA852A38E133000E8835 /* Assets.xcassets */,
+				EDC4FA872A38E133000E8835 /* LaunchScreen.storyboard */,
+				EDC4FA8A2A38E133000E8835 /* Info.plist */,
+			);
+			path = PhinconTest;
+			sourceTree = "<group>";
+		};
+		EDC4FA922A38E133000E8835 /* PhinconTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4FA932A38E133000E8835 /* PhinconTestTests.swift */,
+			);
+			path = PhinconTestTests;
+			sourceTree = "<group>";
+		};
+		EDC4FA9C2A38E133000E8835 /* PhinconTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4FA9D2A38E133000E8835 /* PhinconTestUITests.swift */,
+				EDC4FA9F2A38E133000E8835 /* PhinconTestUITestsLaunchTests.swift */,
+			);
+			path = PhinconTestUITests;
+			sourceTree = "<group>";
+		};
+		EDC4FAAC2A38E57B000E8835 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EDE8F2DD2A399124000BEBB8 /* PokemonDetail */,
+				EDC4FAAD2A38E580000E8835 /* Home */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EDC4FAAD2A38E580000E8835 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4FAAE2A38E58E000E8835 /* HomeContract.swift */,
+				EDC4FAAF2A38E58E000E8835 /* HomePresenter.swift */,
+				EDC4FAB02A38E58E000E8835 /* HomeRouter.swift */,
+				EDC4FAB12A38E58E000E8835 /* HomeViewController.swift */,
+				EDC4FAB22A38E58E000E8835 /* HomeInteractor.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EDC4FAB82A38E59E000E8835 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4FAB92A38E5A7000E8835 /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		EDC4FABB2A38ECEF000E8835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4FABC2A38ECFE000E8835 /* SimplePokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDE8F2DD2A399124000BEBB8 /* PokemonDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EDE8F2DE2A399134000BEBB8 /* PokemonDetailContract.swift */,
+				EDE8F2DF2A399134000BEBB8 /* PokemonDetailPresenter.swift */,
+				EDE8F2E02A399134000BEBB8 /* PokemonDetailRouter.swift */,
+				EDE8F2E12A399134000BEBB8 /* PokemonDetailViewController.swift */,
+				EDE8F2E22A399134000BEBB8 /* PokemonDetailInteractor.swift */,
+			);
+			path = PokemonDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC4FA782A38E131000E8835 /* PhinconTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC4FAA32A38E133000E8835 /* Build configuration list for PBXNativeTarget "PhinconTest" */;
+			buildPhases = (
+				0B138340D9423671213F0466 /* [CP] Check Pods Manifest.lock */,
+				EDC4FA752A38E131000E8835 /* Sources */,
+				EDC4FA762A38E131000E8835 /* Frameworks */,
+				EDC4FA772A38E131000E8835 /* Resources */,
+				5896B0D386430836BD61FFE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhinconTest;
+			productName = PhinconTest;
+			productReference = EDC4FA792A38E131000E8835 /* PhinconTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC4FA8E2A38E133000E8835 /* PhinconTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC4FAA62A38E133000E8835 /* Build configuration list for PBXNativeTarget "PhinconTestTests" */;
+			buildPhases = (
+				EDC4FA8B2A38E133000E8835 /* Sources */,
+				EDC4FA8C2A38E133000E8835 /* Frameworks */,
+				EDC4FA8D2A38E133000E8835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC4FA912A38E133000E8835 /* PBXTargetDependency */,
+			);
+			name = PhinconTestTests;
+			productName = PhinconTestTests;
+			productReference = EDC4FA8F2A38E133000E8835 /* PhinconTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDC4FA982A38E133000E8835 /* PhinconTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC4FAA92A38E133000E8835 /* Build configuration list for PBXNativeTarget "PhinconTestUITests" */;
+			buildPhases = (
+				EDC4FA952A38E133000E8835 /* Sources */,
+				EDC4FA962A38E133000E8835 /* Frameworks */,
+				EDC4FA972A38E133000E8835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC4FA9B2A38E133000E8835 /* PBXTargetDependency */,
+			);
+			name = PhinconTestUITests;
+			productName = PhinconTestUITests;
+			productReference = EDC4FA992A38E133000E8835 /* PhinconTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC4FA712A38E131000E8835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EDC4FA782A38E131000E8835 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EDC4FA8E2A38E133000E8835 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EDC4FA782A38E131000E8835;
+					};
+					EDC4FA982A38E133000E8835 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EDC4FA782A38E131000E8835;
+					};
+				};
+			};
+			buildConfigurationList = EDC4FA742A38E131000E8835 /* Build configuration list for PBXProject "PhinconTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC4FA702A38E131000E8835;
+			productRefGroup = EDC4FA7A2A38E131000E8835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC4FA782A38E131000E8835 /* PhinconTest */,
+				EDC4FA8E2A38E133000E8835 /* PhinconTestTests */,
+				EDC4FA982A38E133000E8835 /* PhinconTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC4FA772A38E131000E8835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC4FA892A38E133000E8835 /* LaunchScreen.storyboard in Resources */,
+				EDC4FA862A38E133000E8835 /* Assets.xcassets in Resources */,
+				EDC4FA842A38E131000E8835 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC4FA8D2A38E133000E8835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC4FA972A38E133000E8835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B138340D9423671213F0466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhinconTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5896B0D386430836BD61FFE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhinconTest/Pods-PhinconTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhinconTest/Pods-PhinconTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhinconTest/Pods-PhinconTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC4FA752A38E131000E8835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE8F2E52A399134000BEBB8 /* PokemonDetailRouter.swift in Sources */,
+				EDC4FAB32A38E58E000E8835 /* HomeContract.swift in Sources */,
+				EDC4FAB52A38E58E000E8835 /* HomeRouter.swift in Sources */,
+				EDC4FA812A38E131000E8835 /* ViewController.swift in Sources */,
+				EDC4FAB72A38E58E000E8835 /* HomeInteractor.swift in Sources */,
+				EDE8F2E72A399134000BEBB8 /* PokemonDetailInteractor.swift in Sources */,
+				EDE8F2E32A399134000BEBB8 /* PokemonDetailContract.swift in Sources */,
+				EDC4FA7D2A38E131000E8835 /* AppDelegate.swift in Sources */,
+				EDC4FAB42A38E58E000E8835 /* HomePresenter.swift in Sources */,
+				EDC4FAB62A38E58E000E8835 /* HomeViewController.swift in Sources */,
+				EDE8F2E62A399134000BEBB8 /* PokemonDetailViewController.swift in Sources */,
+				EDC4FABD2A38ECFE000E8835 /* SimplePokemon.swift in Sources */,
+				EDC4FABA2A38E5A7000E8835 /* Request.swift in Sources */,
+				EDC4FA7F2A38E131000E8835 /* SceneDelegate.swift in Sources */,
+				EDE8F2E42A399134000BEBB8 /* PokemonDetailPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC4FA8B2A38E133000E8835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC4FA942A38E133000E8835 /* PhinconTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC4FA952A38E133000E8835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC4FAA02A38E133000E8835 /* PhinconTestUITestsLaunchTests.swift in Sources */,
+				EDC4FA9E2A38E133000E8835 /* PhinconTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC4FA912A38E133000E8835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC4FA782A38E131000E8835 /* PhinconTest */;
+			targetProxy = EDC4FA902A38E133000E8835 /* PBXContainerItemProxy */;
+		};
+		EDC4FA9B2A38E133000E8835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC4FA782A38E131000E8835 /* PhinconTest */;
+			targetProxy = EDC4FA9A2A38E133000E8835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC4FA822A38E131000E8835 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC4FA832A38E131000E8835 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC4FA872A38E133000E8835 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC4FA882A38E133000E8835 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC4FAA12A38E133000E8835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDC4FAA22A38E133000E8835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC4FAA42A38E133000E8835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CE820DC18324711FA604B8 /* Pods-PhinconTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhinconTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonnyescape.PhinconTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC4FAA52A38E133000E8835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64A64544848A47848344D42 /* Pods-PhinconTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhinconTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonnyescape.PhinconTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDC4FAA72A38E133000E8835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonnyescape.PhinconTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhinconTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhinconTest";
+			};
+			name = Debug;
+		};
+		EDC4FAA82A38E133000E8835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonnyescape.PhinconTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhinconTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhinconTest";
+			};
+			name = Release;
+		};
+		EDC4FAAA2A38E133000E8835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonnyescape.PhinconTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhinconTest;
+			};
+			name = Debug;
+		};
+		EDC4FAAB2A38E133000E8835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonnyescape.PhinconTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhinconTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC4FA742A38E131000E8835 /* Build configuration list for PBXProject "PhinconTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC4FAA12A38E133000E8835 /* Debug */,
+				EDC4FAA22A38E133000E8835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC4FAA32A38E133000E8835 /* Build configuration list for PBXNativeTarget "PhinconTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC4FAA42A38E133000E8835 /* Debug */,
+				EDC4FAA52A38E133000E8835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC4FAA62A38E133000E8835 /* Build configuration list for PBXNativeTarget "PhinconTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC4FAA72A38E133000E8835 /* Debug */,
+				EDC4FAA82A38E133000E8835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC4FAA92A38E133000E8835 /* Build configuration list for PBXNativeTarget "PhinconTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC4FAAA2A38E133000E8835 /* Debug */,
+				EDC4FAAB2A38E133000E8835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC4FA712A38E131000E8835 /* Project object */;
+}
